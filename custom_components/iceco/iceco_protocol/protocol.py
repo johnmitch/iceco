@@ -264,7 +264,7 @@ class IcecoProtocol:
         except UnicodeDecodeError:
             return None
 
-        if not message.startswith("/S00/L/"):
+        if not message.startswith("/S00/0L/"):
             return None
 
         try:
