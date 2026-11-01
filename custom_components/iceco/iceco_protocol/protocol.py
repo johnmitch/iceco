@@ -315,7 +315,7 @@ class IcecoProtocol:
             message = data.decode('ascii').strip()
 
             # Format: /S00/U/<zone_count>,<eco_max>,<unit_mode>,<L_Temp>,<R_Temp>
-            if message.startswith('/S00/U/'):
+            if message.startswith('/S00/L/'):
                 # Extract zone count from the header (e.g., /S00/U/2)
                 header_end = message.index(',')
                 header = message[:header_end]  # e.g., "/S00/U/2"
