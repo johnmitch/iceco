@@ -88,7 +88,7 @@ ATTR_THRESHOLD = "threshold"
 ATTR_TIMEOUT_MINUTES = "timeout_minutes"
 
 # Temperature limits (Celsius — HA auto-converts for display)
-MIN_TEMP = -22  # °C
+MIN_TEMP = -18  # °C
 MAX_TEMP = 10   # °C
 TEMP_STEP = 1
 
